@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base:"/BlackAnt_DXF",
+  base:"/prj",
   plugins: [
     react(),
     mode === 'development' &&
